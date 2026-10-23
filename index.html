@@ -25,7 +25,7 @@
   <!-- TODO: Same as description above -->
   <meta property="og:description" content="3D-aware representations can improve robotic manipulation by providing geometric information that is robust to changes in viewpoint, object position, and occlusion. However, using 3D inputs at deployment requires additional sensing and processing, making image-based policies more practical. We ask whether an image-based policy can acquire 3D shape information during training while retaining a purely image-based interface at deployment. We propose shape-teacher alignment, a training-time mechanism that uses a pretrained 3D shape representation as an alignment target for an image-based policy encoder. Specifically, we use Point-MAE features from individual objects as targets for corresponding image patches, transferring geometric structure to the policy without changing its deployment inputs or architecture. On LIBERO, shape-teacher alignment produces image representations that are more structured around object shape and corresponding parts, while substantially accelerating policy convergence and improving success rates. For pretrained policies, convergence is accelerated by 4.7x and 5.6x on the Object and Spatial suites, respectively, without requiring the shape teacher or depth input at deployment.">
   <!-- TODO: Replace with your actual website URL -->
-  <meta property="og:url" content="https://YOUR_DOMAIN.com/YOUR_PROJECT_PAGE">
+  <meta property="og:url" content="https://miepjemadelon.github.io/aligningpolicieswithashapeteacher">
   <!-- TODO: Create a 1200x630px preview image and update path -->
   <meta property="og:image" content="https://YOUR_DOMAIN.com/static/images/social_preview.png">
   <meta property="og:image:width" content="1200">
@@ -52,7 +52,7 @@
   <meta name="twitter:image:alt" content="PAPER_TITLE - Research Preview">
 
   <!-- Academic/Research Specific -->
-  <meta name="citation_title" content="PAPER_TITLE">
+  <meta name="citation_title" content="Aligning policies with a shape teacher">
   <meta name="citation_author" content="Bernardy, Angela Madelon">
   <meta name="citation_author" content="Derakhshani, Mohammad Mahdi">
   <meta name="citation_author" content="Knigge, David M">
@@ -77,11 +77,11 @@
 
 
   <!-- TODO: Replace with your paper title and authors -->
-  <title>PAPER_TITLE - AUTHOR_NAMES | Academic Research</title>
+  <title>Aligning policies with a shape teacher - Angela Madelon Bernardy, Mohammad Mahdi Derakhshani, David M Knigge, Riccardo Valperga, Artem Moskalev | Academic Research</title>
   
   <!-- Favicon and App Icons -->
-  <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
-  <link rel="apple-touch-icon" href="static/images/favicon.ico">
+  <link rel="icon" type="image/x-icon" href="static/images/favicon.png">
+  <link rel="apple-touch-icon" href="static/images/favicon.png">
   
   <!-- Critical CSS - Load synchronously -->
   <link rel="stylesheet" href="static/css/bulma.min.css">
@@ -117,8 +117,8 @@
   {
     "@context": "https://schema.org",
     "@type": "ScholarlyArticle",
-    "headline": "PAPER_TITLE",
-    "description": "BRIEF_DESCRIPTION_OF_YOUR_RESEARCH_CONTRIBUTION_AND_FINDINGS",
+    "headline": "Aligning Policies with a Shape Teacher",
+    "description": "3D-aware representations can improve robotic manipulation by providing geometric information that is robust to changes in viewpoint, object position, and occlusion. However, using 3D inputs at deployment requires additional sensing and processing, making image-based policies more practical. We ask whether an image-based policy can acquire 3D shape information during training while retaining a purely image-based interface at deployment. We propose shape-teacher alignment, a training-time mechanism that uses a pretrained 3D shape representation as an alignment target for an image-based policy encoder. Specifically, we use Point-MAE features from individual objects as targets for corresponding image patches, transferring geometric structure to the policy without changing its deployment inputs or architecture. On LIBERO, shape-teacher alignment produces image representations that are more structured around object shape and corresponding parts, while substantially accelerating policy convergence and improving success rates. For pretrained policies, convergence is accelerated by 4.7x and 5.6x on the Object and Spatial suites, respectively, without requiring the shape teacher or depth input at deployment.",
     "author": [
       {
         "@type": "Person",
@@ -173,7 +173,7 @@
     "@type": "Organization",
     "name": "INSTITUTION_OR_LAB_NAME",
     "url": "https://YOUR_INSTITUTION_WEBSITE.com",
-    "logo": "https://YOUR_DOMAIN.com/static/images/favicon.ico",
+    "logo": "https://YOUR_DOMAIN.com/static/images/favicon.png",
     "sameAs": [
       "https://twitter.com/YOUR_TWITTER_HANDLE",
       "https://github.com/YOUR_GITHUB_USERNAME"
@@ -189,54 +189,6 @@
     <i class="fas fa-chevron-up"></i>
   </button>
 
-  <!-- <!-- More Works Dropdown -->
-  <div class="more-works-container">
-    <button class="more-works-btn" onclick="toggleMoreWorks()" title="View More Works from Our Lab">
-      <i class="fas fa-flask"></i>
-      More Works
-      <i class="fas fa-chevron-down dropdown-arrow"></i>
-    </button>
-    <div class="more-works-dropdown" id="moreWorksDropdown">
-      <div class="dropdown-header">
-        <h4>More Works from Our Lab</h4>
-        <button class="close-btn" onclick="toggleMoreWorks()">
-          <i class="fas fa-times"></i>
-        </button>
-      </div>
-      <div class="works-list">
-        <!-- TODO: Replace with your lab's related works -->
-        <a href="https://arxiv.org/abs/PAPER_ID_1" class="work-item" target="_blank">
-          <div class="work-info">
-            <!-- TODO: Replace with actual paper title -->
-            <h5>Paper Title 1</h5>
-            <!-- TODO: Replace with brief description -->
-            <p>Brief description of the work and its main contribution.</p>
-            <!-- TODO: Replace with venue and year -->
-            <span class="work-venue">Conference/Journal 2024</span>
-          </div>
-          <i class="fas fa-external-link-alt"></i>
-        </a>
-        <!-- TODO: Add more related works or remove extra items -->
-        <a href="https://arxiv.org/abs/PAPER_ID_2" class="work-item" target="_blank">
-          <div class="work-info">
-            <h5>Paper Title 2</h5>
-            <p>Brief description of the work and its main contribution.</p>
-            <span class="work-venue">Conference/Journal 2023</span>
-          </div>
-          <i class="fas fa-external-link-alt"></i>
-        </a>
-        <a href="https://arxiv.org/abs/PAPER_ID_3" class="work-item" target="_blank">
-          <div class="work-info">
-            <h5>Paper Title 3</h5>
-            <p>Brief description of the work and its main contribution.</p>
-            <span class="work-venue">Conference/Journal 2023</span>
-          </div>
-          <i class="fas fa-external-link-alt"></i>
-        </a>
-      </div>
-    </div>
-  </div> -->
-
   <main id="main-content">
   <section class="hero">
     <div class="hero-body">
@@ -248,13 +200,13 @@
             <div class="is-size-5 publication-authors">
               <!-- TODO: Replace with your paper authors and their personal links -->
               <span class="author-block">
-                <a href="FIRST AUTHOR PERSONAL LINK" target="_blank">Angela Madelon Bernardy</a><sup>*</sup>,</span>
+                <a href="FIRST AUTHOR PERSONAL LINK" target="_blank">Angela Madelon Bernardy</a>,</span>
                 <span class="author-block">
-                  <a href="https://mmderakhshani.github.io" target="_blank">Mohammad Mahdi Derakhshani</a><sup>*</sup>,</span>
+                  <a href="https://mmderakhshani.github.io" target="_blank">Mohammad Mahdi Derakhshani</a>,</span>
                   <span class="author-block">
-                      <a href="https://davidmknigge.nl" target="_blank">David M Knigge</a><sup>*</sup>,</span>
+                      <a href="https://davidmknigge.nl" target="_blank">David M Knigge</a>,</span>
                   <span class="author-block">
-                      <a href="https://ricvalp.github.io" target="_blank">Riccardo Valperga</a><sup>*</sup>,</span>
+                      <a href="https://ricvalp.github.io" target="_blank">Riccardo Valperga</a>,</span>
                   <span class="author-block">
                     <a href="https://amoskalev.github.io" target="_blank">Artem Moskalev</a>
                   </span>
@@ -276,7 +228,7 @@
                         <span class="icon">
                           <i class="fas fa-file-pdf"></i>
                         </span>
-                        <span>Paper</span>
+                        <span>Paper (Soon)</span>
                       </a>
                     </span>
 
@@ -298,7 +250,7 @@
                     <span class="icon">
                       <i class="fab fa-github"></i>
                     </span>
-                    <span>Code</span>
+                    <span>Code (Soon)</span>
                   </a>
                 </span>
 
@@ -309,7 +261,7 @@
                   <span class="icon">
                     <i class="ai ai-arxiv"></i>
                   </span>
-                  <span>arXiv</span>
+                  <span>arXiv (Soon)</span>
                 </a>
               </span>
             </div>
@@ -326,14 +278,29 @@
   <div class="container is-max-desktop">
     <div class="hero-body">
       <!-- TODO: Replace with your teaser video -->
-      <video poster="" id="tree" autoplay controls muted loop height="100%" preload="metadata">
-        <!-- TODO: Add your video file path here -->
-        <source src="static/videos/banner_video.mp4" type="video/mp4">
-      </video>
-      <!-- TODO: Replace with your video description -->
-      <h2 class="subtitle has-text-centered">
-        Aliquam vitae elit ullamcorper tellus egestas pellentesque. Ut lacus tellus, maximus vel lectus at, placerat pretium mi. Maecenas dignissim tincidunt vestibulum. Sed consequat hendrerit nisl ut maximus. 
-      </h2>
+      <div id="results-carousel" class="carousel results-carousel">
+       <div class="item">
+        <!-- TODO: Replace with your research result images -->
+        <img src="static/images/similarities_pointmae.png" alt="Similarities of pointmae alignment vs the baseline policy" loading="lazy"/>
+        <!-- TODO: Replace with description of this result -->
+        <h2 class="subtitle has-text-centered">
+          Patch similarity between the red patch and other patches after the ViT of the policy. Green denotes the second patch.
+        </h2>
+        </div>
+        <div class="item">
+        <!-- Your image here -->
+        <img src="static/images/method.jpg" alt="Second research result visualization" loading="lazy"/>
+        <h2 class="subtitle has-text-centered">
+          Description of the method. Per-object PointMAE alignment target computation (left) with the diffusion policy (right).
+        </h2>
+        </div>
+        <div class="item">
+        <!-- Your image here -->
+        <img src="static/images/convergence.jpg" alt="Third research result visualization" loading="lazy"/>
+        <h2 class="subtitle has-text-centered">
+         Success rate over training epochs. Point-MAE alignment (pink) has a faster convergence, both for alignment with a pre-trained policy, and with a from scratch policy.
+        </h2>
+        </div>
     </div>
   </div>
 </section>
@@ -356,124 +323,45 @@
   </div>
 </section>
 <!-- End paper abstract -->
-
-
-<!-- Image carousel -->
-<section class="hero is-small">
-  <div class="hero-body">
-    <div class="container">
-      <div id="results-carousel" class="carousel results-carousel">
-       <div class="item">
-        <!-- TODO: Replace with your research result images -->
-        <img src="static/images/carousel1.jpg" alt="First research result visualization" loading="lazy"/>
-        <!-- TODO: Replace with description of this result -->
-        <h2 class="subtitle has-text-centered">
-          First image description.
-        </h2>
-      </div>
-      <div class="item">
-        <!-- Your image here -->
-        <img src="static/images/carousel2.jpg" alt="Second research result visualization" loading="lazy"/>
-        <h2 class="subtitle has-text-centered">
-          Second image description.
-        </h2>
-      </div>
-      <div class="item">
-        <!-- Your image here -->
-        <img src="static/images/carousel3.jpg" alt="Third research result visualization" loading="lazy"/>
-        <h2 class="subtitle has-text-centered">
-         Third image description.
-       </h2>
-     </div>
-     <div class="item">
-      <!-- Your image here -->
-      <img src="static/images/carousel4.jpg" alt="Fourth research result visualization" loading="lazy"/>
-      <h2 class="subtitle has-text-centered">
-        Fourth image description.
-      </h2>
-    </div>
-  </div>
-</div>
-</div>
-</section>
+<!--  -->
 <!-- End image carousel -->
 
 
 
-
-<!-- Youtube video -->
-<section class="hero is-small is-light">
-  <div class="hero-body">
-    <div class="container">
-      <!-- Paper video. -->
-      <h2 class="title is-3">Video Presentation</h2>
-      <div class="columns is-centered has-text-centered">
-        <div class="column is-four-fifths">
-          
-          <div class="publication-video">
-            <!-- TODO: Replace with your YouTube video ID -->
-            <iframe src="https://www.youtube.com/embed/JkaxUblCGz0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<!--
+  <section class="hero is-small is-light">
+    <div class="hero-body">
+      <div class="container">
+        <h2 class="title is-3">Video Presentation</h2>
+        <div class="columns is-centered has-text-centered">
+          <div class="column is-four-fifths">
+            <div class="publication-video">
+              <iframe src="https://www.youtube.com/embed/JkaxUblCGz0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
-</section>
-<!-- End youtube video -->
-
-
-<!-- Video carousel -->
-<section class="hero is-small">
-  <div class="hero-body">
-    <div class="container">
-      <h2 class="title is-3">Another Carousel</h2>
-      <div id="results-carousel" class="carousel results-carousel">
-        <div class="item item-video1">
-          <!-- TODO: Add poster image for better preview -->
-          <video poster="" id="video1" controls muted loop height="100%" preload="metadata">
-            <!-- Your video file here -->
-            <source src="static/videos/carousel1.mp4" type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-video2">
-          <!-- TODO: Add poster image for better preview -->
-          <video poster="" id="video2" controls muted loop height="100%" preload="metadata">
-            <!-- Your video file here -->
-            <source src="static/videos/carousel2.mp4" type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-video3">
-          <!-- TODO: Add poster image for better preview -->
-          <video poster="" id="video3" controls muted loop height="100%" preload="metadata">
-            <!-- Your video file here -->
-            <source src="static/videos/carousel3.mp4" type="video/mp4">
-          </video>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- End video carousel -->
+  </section>
+-->
 
 
 
 
 
-
-<!-- Paper poster -->
+<!-- Paper poster
 <section class="hero is-small is-light">
   <div class="hero-body">
     <div class="container">
       <h2 class="title">Poster</h2>
 
-      <!-- TODO: Replace with your poster PDF -->
       <iframe  src="static/pdfs/sample.pdf" width="100%" height="550">
           </iframe>
         
       </div>
     </div>
   </section>
-<!--End paper poster -->
+End paper poster -->
 
 
 
@@ -488,10 +376,10 @@
         </button>
       </div>
       <pre id="bibtex-code"><code>@article{YourPaperKey2024,
-  title={Your Paper Title Here},
+  title={TODO},
   author={First Author and Second Author and Third Author},
   journal={Conference/Journal Name},
-  year={2024},
+  year={2026},
   url={https://your-domain.com/your-project-page}
 }</code></pre>
     </div>
