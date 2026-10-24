@@ -283,6 +283,16 @@ body {
   height: auto;
 }
 
+.results-carousel .item img {
+  display: block;
+  width: 75%;
+  margin: 0 auto;
+}
+
+.results-carousel .item img.img-half {
+  width: 50%;
+}
+
 .results-carousel .subtitle {
   font-size: 1rem !important;
   color: var(--text-secondary);
